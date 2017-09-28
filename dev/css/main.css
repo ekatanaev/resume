@@ -1,4 +1,38 @@
-header {
-  background: url(../dev/img/head.jpg) no-reapet center top / cover;
-  height: 600 px
+*{
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
+.container {
+  margin: 0 auto;
+  width: 1000px;
+}
+.header .container {
+  padding: 210px 0px 0px 460px;
+}
+.header {
+  background-color: #434244;
+}
+body {
+  background-color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.title {
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+}
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #00acec;
+  text-transform: uppercase;
+  margin-top: 0;
 }
