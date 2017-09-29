@@ -44,6 +44,25 @@ h3 {
   text-transform: uppercase;
   margin-top: 0;
 }
+h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #434244;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+.box_wrapper {
+  width: calc(100% - 400px);
+  padding: 50px 0 0 50px;
+  float: left;
+}
+.box_wrapper:first-child {
+  width: 400px;
+  border-right-style: solid;
+  border-width: 3px;
+  border-color: #bebebf;
+  padding: 50px 50px 0 0;
+}
 .box-list {
   font-size: 15px;
   color: #8f9194;
@@ -53,32 +72,28 @@ h3 {
   float: left;
 }
 .box-list__line {
-  width: 300px;
 }
+
 .box-list__value {
   width: calc(100% - 160px);
   float: right;
 }
-.box-list__value span {
-  float: left;
-  padding-right: 15px;
+.box-list__tracker span {
+  display: block;
+  background: #434244;
+  height: 5px;
+}
+.box-list__tracker {
+  height: 5px;
+  background: #bebebf;
+  position: relative;
 }
 .box-list {
   border-bottom-style: solid;
   border-width: 3px;
-  width: 300px;
 }
 .box-list__label.box-list_text_uppercase {
   text-transform: uppercase;
-}
-p {
-  height: 5px;
-  background: #bebebf;
-}
-span {
-  height: 5px;
-  background: #434244;
-  display: inline-block;
 }
 .box-list__line img {
   float: left;
