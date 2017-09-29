@@ -8,6 +8,14 @@ h4,
 h5 {
   margin: 0;
 }
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
 .container {
   margin: 0 auto;
   width: 1000px;
@@ -35,4 +43,23 @@ h3 {
   color: #00acec;
   text-transform: uppercase;
   margin-top: 0;
+}
+.box-list {
+  font-size: 15px;
+  color: #8f9194;
+}
+.box-list__label {
+  width: 160px;
+  float: left;
+}
+.box-list__line {
+  width: 300px;
+}
+.box-list__value {
+  width: calc(100% - 160px);
+  float: right;
+}
+.box-list__value span {
+  float: left;
+  padding-right: 15px;
 }
