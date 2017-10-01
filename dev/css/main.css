@@ -11,6 +11,14 @@ h5 {
 p {
   margin: 0;
 }
+a {
+  color: #8f9194;
+  text-decoration: none;
+}
+a:focus,
+a:hover {
+  color: #00acec;
+}
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -40,8 +48,9 @@ p {
 	height: 350px;
 	background: #dbdcdd;
 	border-radius: 250px;
-  margin-top: -220px;
+  margin-top: -243px;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 .avatar__img {
   width: 350px;
