@@ -29,6 +29,24 @@ p {
 .header {
   background-color: #434244;
 }
+.title {
+  padding-bottom: 10px;
+}
+.subtitle {
+  padding-bottom: 20px;
+}
+.avatar {
+  width: 350px;
+	height: 350px;
+	background: #dbdcdd;
+	border-radius: 250px;
+  margin-top: -220px;
+  overflow: hidden;
+}
+.avatar__img {
+  width: 350px;
+	height: 350px;
+}
 body {
   background-color: #ffffff;
   font-family: 'Raleway', sans-serif;
@@ -112,4 +130,7 @@ body {
 .box-list__img {
   width: 35px;
   height: 35px;
+}
+.box_made_icon .box-list__value {
+  margin-top: 10px;
 }
