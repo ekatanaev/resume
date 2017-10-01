@@ -8,6 +8,9 @@ h4,
 h5 {
   margin: 0;
 }
+p {
+  margin: 0;
+}
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -32,24 +35,31 @@ body {
   padding: 0;
   margin: 0;
 }
+.footer {
+  background-color: #434244;
+  height: 35px;
+}
+.box {
+  margin-bottom: 20px;
+}
 .title {
     font-size: 40px;
     color: #fff;
     text-transform: uppercase;
 }
-h3 {
+.box__title {
   font-size: 20px;
   font-weight: bold;
   color: #00acec;
   text-transform: uppercase;
-  margin-top: 0;
+  margin-top: 0px;
 }
-h4 {
+.box__subtitle {
   font-size: 20px;
   font-weight: bold;
   color: #434244;
   text-transform: uppercase;
-  margin-top: 0;
+  margin-top: 10px;
 }
 .box_wrapper {
   width: calc(100% - 400px);
@@ -66,17 +76,25 @@ h4 {
 .box-list {
   font-size: 15px;
   color: #8f9194;
+  margin-top: 20px;
+  padding-bottom: 15px;
+  border-bottom-style: solid;
+  border-width: 3px;
+  border-color: #bebebf;
+}
+.box-list__span {
+  margin-right: 25px;
 }
 .box-list__label {
   width: 160px;
   float: left;
 }
-.box-list__line {
-}
-
 .box-list__value {
   width: calc(100% - 160px);
   float: right;
+}
+.box-list__line {
+  margin-bottom: 5px;
 }
 .box-list__tracker span {
   display: block;
@@ -88,13 +106,10 @@ h4 {
   background: #bebebf;
   position: relative;
 }
-.box-list {
-  border-bottom-style: solid;
-  border-width: 3px;
-}
 .box-list__label.box-list_text_uppercase {
   text-transform: uppercase;
 }
-.box-list__line img {
-  float: left;
+.box-list__img {
+  width: 35px;
+  height: 35px;
 }
