@@ -143,3 +143,9 @@ body {
 .box_made_icon .box-list__value {
   margin-top: 10px;
 }
+.box_made_value .box-list__value {
+  margin-top: 6px;
+}
+.footer__text {
+  text-align: right;
+}
